@@ -1,6 +1,6 @@
 class Team
   attr_accessor :name, :motto
-  TEAM
+  TEAM = []
 
     def initialize (params)
       params.each {|key, value| self.send("#{key}=",value)}
