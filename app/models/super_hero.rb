@@ -1,6 +1,6 @@
 class Superhero
   attr_accessor :name, :power, :biography
-  SUPERHEROES
+  SUPERHEROES = []
 
   def initialize (params)
     params.each {|key, value| self.send("#{key}=",value)}
