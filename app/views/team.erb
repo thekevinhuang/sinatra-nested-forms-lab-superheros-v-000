@@ -7,9 +7,9 @@
     <%hero_count.each do |number| %>
       <h2>Hero <%=number%></h2>
 
-      <label>Hero's Name:<input type="text" name="team[heroes][][name]" id="team[heroes][][name]"></label><br>
-      <label>Hero's Power:<input type="text" name="team[heroes][][power]" id="team[heroes][][power]"></label><br>
-      <label>Hero's Biography:<input type="text" name="team[heroes][][biography]" id="team[heroes][][biography]"></label><br>
+      <label>Hero's Name:<input type="text" name="team[heroes][][name]" id="member<%=number%>_name"></label><br>
+      <label>Hero's Power:<input type="text" name="team[heroes][][power]" id="member<%=number%>_name"></label><br>
+      <label>Hero's Biography:<input type="text" name="team[heroes][][biography]" id="member<%=number%>_name"></label><br>
 
     <%end%>
 
