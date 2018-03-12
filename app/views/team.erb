@@ -4,7 +4,7 @@
     <label>Team Motto:<input type="text" name="team[motto]" id="team[motto]"></label><br>
 
     <%hero_count = [1,2,3]%>
-    <%hero_count.each |number| do%>
+    <%hero_count.each do |number| %>
       <h2>Hero <%=number%></h2><br>
 
       <label>Hero's Name:<input type="text" name="team[heroes][][name]" id="team[heroes][][name]"></label><br>
